@@ -1,6 +1,6 @@
 import { AiFillHome, AiFillGithub } from 'react-icons/ai';
-import { BsMedium } from 'react-icons/bs';
-import { BiPodcast, BiDna } from 'react-icons/bi';
+import { BsMedium, BsFillTerminalFill } from 'react-icons/bs';
+import { BiPodcast } from 'react-icons/bi';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { useState } from 'react';
 
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <span className='pl-3 font-light'>Blogs</span>
                 </a>
                 <a href="#" className='flex items-center px-4 hover:bg-[#4E808F] transition ease-in duration-300'>
-                    <BiDna className='text-4xl' />
+                    <BsFillTerminalFill className='text-4xl' />
                     <span className='pl-3 font-light'>Skills</span>
                 </a>
                 <a href="#" className='flex items-center px-4 hover:bg-[#4E808F] transition ease-in duration-300'>
@@ -54,7 +54,7 @@ const Navbar = () => {
                             <span className='pl-2'>Blogs</span>
                         </a>
                         <a href="#" className='flex items-center pl-8 py-5 hover:bg-[#4E808F] transition ease-in duration-300'>
-                            <BiDna className='text-5xl' />
+                            <BsFillTerminalFill className='text-5xl' />
                             <span className='pl-2'>Skills</span>
                         </a>
                         <a href="#" className='flex items-center pl-8 py-5 hover:bg-[#4E808F] transition ease-in duration-300'>
